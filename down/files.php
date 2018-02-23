@@ -14,7 +14,7 @@ function outPage() {
         foreach ($files as $name){
                 if($name=="")
                         continue;
-                echo '<input type="button" value="DEL" onclick="del(\''.$name.'\')" /> <a href="https://php.kpli.ga/down/'.$name.'">'.$name.'</a><br>';
+                echo '<input type="button" value="DEL" onclick="del(\''.$name.'\')" /> <a href="http://kpli-kpli.193b.starter-ca-central-1.openshiftapps.com/down/'.$name.'">'.$name.'</a><br>';
         }
         echo '</body>';
 }
